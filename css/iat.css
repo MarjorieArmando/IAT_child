@@ -1,0 +1,14 @@
+.center
+{
+    height:50px;
+    margin-top:170px;
+}
+
+.app
+{
+    margin:auto;
+    width:600px;
+    height:500px;
+    color:white;
+    border:solid 5px white;
+}

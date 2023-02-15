@@ -1,0 +1,77 @@
+{
+	"cat_and_stims":{
+		"cat_1":{
+			"title":"Maths",
+			"stims":[
+				["Addition","../iatenfant/audio/addition.mp3"],
+				["Nombre","../iatenfant/audio/nombre.mp3"],
+				["Droite","../iatenfant/audio/droite.mp3"],
+				["Maths","../iatenfant/audio/maths.mp3"],
+				["Calcul","../iatenfant/audio/calcul.mp3"]
+			],
+			"color":"#FFFFFF"
+		},
+		"cat_2":{
+			"title":"Lecture",
+			"stims":[
+				["Lire","../iatenfant/audio/lire.mp3"],
+				["Roman","../iatenfant/audio/roman.mp3"],
+				["Livre","../iatenfant/audio/livre.mp3"],
+				["Lettre","../iatenfant/audio/lettre.mp3"],
+				["Lecture","../iatenfant/audio/lecture.mp3"]
+			],
+			"color":"#FFFFFF"
+		},
+		"cat_3":{
+			"title":"Garçon",
+			"stims":[
+				["Léo","../iatenfant/audio/leo.mp3"],
+				["Lucas","../iatenfant/audio/lucas.mp3"],
+				["Hugo","../iatenfant/audio/hugo.mp3"],
+				["Djibril","../iatenfant/audio/djibril.mp3"],
+				["Mohamed","../iatenfant/audio/mohamed.mp3"]
+			],
+			"color":"#00ff00"
+		},
+		"cat_4":{
+			"title":"Fille",
+			"stims":[
+				["Zoë","../iatenfant/audio/zoe.mp3"],
+				["Emma","../iatenfant/audio/emma.mp3"],
+				["Sarah","../iatenfant/audio/sarah.mp3"],
+				["Nadia","../iatenfant/audio/nadia.mp3"],
+				["Aminata","../iatenfant/audio/aminata.mp3"]
+			],
+			"color":"#00ff00"
+		}
+	},
+	"nb_blocks_max":7,
+	"b1_cat":["cat_1", "cat_2"],
+	"b2_cat":["cat_3", "cat_4"],
+	"b5_cat":["cat_1", "cat_2"],
+	"cat_compatible_A":["cat_1","cat_3"],
+	"cat_compatible_B":["cat_2","cat_4"],
+	"cat_incompatible_A":["cat_1","cat_4"],
+	"cat_incompatible_B":["cat_2","cat_3"],
+	"nb_sample_b1":20,
+	"nb_sample_b2":20,
+	"nb_sample_b3":20,
+	"nb_sample_b4":40,
+	"nb_sample_b5":40,
+	"nb_sample_b6":20,
+	"nb_sample_b7":40,
+	"left_key":69,
+	"right_key":73,
+	"continue_key":32,
+	"instructions_welcome_A":"Des mots vous seront présentés un par un au centre de l’écran. Vous devrez les classer aussi vite que possible sans faire d’erreurs dans la ou les catégories situées en haut à gauche et à droite de l’écran. Cette partie de l’étude dure environ 5 minutes.<br/>Gardez votre index (ou majeur) gauche sur la touche ‘e’ et votre index (ou majeur) droit sur la touche ‘i’ afin de pouvoir répondre rapidement.",
+	"instructions_welcome_B":"Gardez à l’esprit<ul style=\"text-align:left;line-height:1.2;\"><li>Gardez votre index gauche sur la touche ‘e’ et votre index droit sur la touche ‘i’ afin de pouvoir répondre rapidement.</li><li>Les catégories situées en haut de l'écran vous indiqueront quels mots vont avec chaque touche.</li><li>Chaque mot a une classification correcte. Ces classifications sont faciles.</li><li>Le test ne produira pas de résultats si vous allez lentement. Veuillez essayer d’aller le plus vite possible.</li><li>Attendez-vous à faire quelques erreurs parce que vous allez vite. Ce n’est pas grave.</li><li>Pour de meilleurs résultats, évitez les sources de distraction et restez concentré.e.</li></ul><span>Appuyez sur la <b>barre d'espace</b> pour commencer.</span>",
+	"instructions_blocks":{
+		"b1":"<p style=\"text-align:left;\">Es-tu prêt ?<br/>Rappel : quand le mot appartient à la catégorie de gauche, appuie sur la touche <b>e</b>. Quand le mot appartient à la catégorie de droite, appuie sur la touche <b>i</b>.</p></b><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour commencer</b>.</span>",
+		"b2":"<p style=\"text-align:left;\">Regarde ci-dessus : les catégories ont changé. Les mots à classer changeront également, mais la façon de procéder est toujours la même.</p></b><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour commencer</b>.</span>",
+		"b3":"<p style=\"text-align:left;\">Regarde ci-dessus : les quatre catégories que tu as vues séparément apparaissent maintenant ensemble. Chaque mot appartient seulement à une catégorie.</p><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour continuer</b>.</span>",
+		"b4":"<p style=\"text-align:left;\">Classe à nouveau chaque mot présenté au centre de l'écran dans l'une des quatre mêmes catégories.</p><br/><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour continuer</b>.</span>",
+		"b5":"<p style=\"text-align:left;\">Regarde ci-dessus : il y a seulement deux catégories.<br/><br/>Entraîne-toi à reclasser les mots.</p><br/><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour continuer</b>.</span>",
+		"b6":"<p style=\"text-align:left;\">Tu as bientôt terminé. Regarde ci-dessus : les quatre catégories apparaissent maintenant ensemble sous une autre forme.</p><br/><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour continuer</b>.</span>",
+		"b7":"<p style=\"text-align:left;\">Dernière étape : classe à nouveau les mots dans les quatre mêmes catégories.</p><br/><br/><br/><span style='text-align:center;'><b>Appuie sur la <b>barre d'espace</b> pour continuer</b>.</span>"
+	}
+}
